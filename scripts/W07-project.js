@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const jsonUrl = "Ammatadiio-lodge.json";
+    const jsonUrl = "Ammatadiio-lodge.JSON";
     const cardContainer = document.getElementById("card-container");
 
     function createCard(item) {
