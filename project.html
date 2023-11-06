@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patch Cards</title>
+    <link rel="stylesheet" href="styles/W07.css">
+</head>
+<body>
+    <header>
+        <h1>Patch Cards</h1>
+
+        <form id="add-card-form">
+            <label for="url">URL:</label>
+            <input type="text" id="url" name="url" required><br>
+        
+            <label for="issuer">Issuer:</label>
+            <input type="text" id="issuer" name="issuer" required><br>
+        
+            <label for="issuedate">Issue Date:</label>
+            <input type="text" id="issuedate" name="issuedate" required><br>
+        
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="qty" required><br>
+        
+            <input type="submit" value="Add Card">
+        </form>
+        
+    </header>
+
+    <main>
+        <div id="card-container" class="card-container">
+            <!-- Cards will be dynamically added here by JavaScript -->
+        </div>
+    </main>
+
+    <script src="scripts/W07-project.js"></script>
+</body>
+</html>
